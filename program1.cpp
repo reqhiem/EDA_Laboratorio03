@@ -16,7 +16,7 @@ const int ms = 1000000;
 
 void insertionBruteforce(){
     ofstream outInsert1;
-    outInsert1.open(".docs/outInsertFB.txt");
+    outInsert1.open("./docs/outInsertFB.txt");
     int max_cant = 11;
 
     int cant[11] = {100, 500, 1000, 5000, 10000, 20000, 100000, 200000, 350000, 500000, 1000000};
@@ -44,7 +44,7 @@ void insertionBruteforce(){
         //end timer here
         auto end = chrono::high_resolution_clock::now();
 
-        auto duration = chrono::duration_cast<chrono::microseconds>(end - start);
+        auto duration = chrono::duration_cast<chrono::nanoseconds>(end - start);
         outInsert1 << cant[i] << " " << duration.count() << endl;
 
     }
@@ -83,7 +83,7 @@ void insertionKdTree(){
         //end timer here
         auto end = chrono::high_resolution_clock::now();
 
-        auto duration = chrono::duration_cast<chrono::microseconds>(end - start);
+        auto duration = chrono::duration_cast<chrono::nanoseconds>(end - start);
         outInsert2 << cant[i] << " " << duration.count() << endl;
 
         delete[] points;
@@ -96,7 +96,7 @@ void insertionKdTree(){
 int main(int argc, char const *argv[])
 {
     cout << "Inserting force brute ...\n";
-    //insertionBruteforce();
+    insertionBruteforce();
 
     cout << "Inserting kd-tree ...\n";
     insertionKdTree();

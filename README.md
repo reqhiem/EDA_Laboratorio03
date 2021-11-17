@@ -28,10 +28,28 @@ construcción/inserción y búsqueda, para realizar sus respectivos análisis co
 
 ## Requisitos
 
-*
+* ANN: A Library for
+Approximate Nearest Neighbor Searching
+David M. Mount and Sunil Arya
+Version 1.1.2
+Release Date: Jan 27, 2010
+
+
+* Fast C++ CSV Parser: This is a small, easy-to-use and fast header-only library for reading comma separated value (CSV) files.
+
+* G++ compiler 9.3
+
+* Visual Studio Code
+
+* SO: Linux Lite 5.6
 
 ## Desarrollo
 
+1. Se descargó los códigos fuente de la libreria ANN, se incluyó en el entorno de desarrollo.
+
+2. Se implementó las estructuras KD-Tree y Fuerza bruta para el análisis de los métodos de Inserción y Búsqueda.
+
+3. Se automatizó los procesos
 
 ## Resultados
 

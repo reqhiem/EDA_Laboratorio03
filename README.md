@@ -7,8 +7,8 @@ El presente trabajo corresponde al laboratorio 03 del cirso de Estructura de dat
 | # |Estudiante | Código  |
 | :---:   | :-: | :-: |
 |1 |PERCA QUISPE, Joel Cristian | 20190744 |
-|2 |VILCHEZ MOLINA, Misael Svante | 2019XXXX |
-|3 |ESPINOZA PEÑALOZA, Edgar Alfonso | 2019XXXX |
+|2 |VILCHEZ MOLINA, Misael Svante | 20192272 |
+|3 |ESPINOZA PEÑALOZA, Edgar Alfonso | 20190745 |
 
 
 ## Objetivos:
@@ -59,12 +59,14 @@ Release Date: Jan 27, 2010
 
 1. Inserción **Fuerza bruta VS KD-Tree**.
 
-    ![Image1](docs/image1.png)
+    ![Image1](docs/01_insert_times.png)
 
 1. Búsqueda **Fuerza bruta VS KD-Tree**.
 
-    ![Image1](docs/image1.png)
+    ![Image2](docs/02_search_times.png)
 
 1. k-Nearest Neighbor **Fuerza bruta VS KD-Tree**.
 
-    ![Image1](docs/image1.png)
+    ![Image3](docs/07_30vecinos.png)
+
+    ![Image3](docs/18_1000000elementos.png)

@@ -49,7 +49,22 @@ Release Date: Jan 27, 2010
 
 2. Se implementó las estructuras KD-Tree y Fuerza bruta para el análisis de los métodos de Inserción y Búsqueda.
 
-3. Se automatizó los procesos
+3. Se automatizó los procesos de captura de tiempo de ejecución.
+
+4. Se guardó los datos en un registro adicional.
+
+5. Se usó los datos para generar una tabla así como las gráficas comparativas.
 
 ## Resultados
 
+1. Inserción **Fuerza bruta VS KD-Tree**.
+
+    ![Image1](docs/image1.png)
+
+1. Búsqueda **Fuerza bruta VS KD-Tree**.
+
+    ![Image1](docs/image1.png)
+
+1. k-Nearest Neighbor **Fuerza bruta VS KD-Tree**.
+
+    ![Image1](docs/image1.png)
